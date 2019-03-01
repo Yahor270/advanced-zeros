@@ -15,8 +15,7 @@ for (let k=2;k<=base;k++){
 }
 
 
-for (i=0; i<arr.length; i++)
-{
+for (i=0; i<arr.length; i++){
   st=1;
   sum=0;
   do{
@@ -36,7 +35,7 @@ for (i=0; i<arr.length; i++)
   for (j=i+1; j<arr.length; j++){
   if(arr[i]==arr[j]) pow++;}
   arr[i]=Math.trunc(arr[i]/pow);
-  
+}  
 
 var min=arr[0];
 for (i=1; i<arr.length; i++ ){
